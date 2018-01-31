@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90336781FFDC05400A31ADA /* webViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90336771FFDC05400A31ADA /* webViewViewController.swift */; };
+		D903367A1FFDC8B700A31ADA /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90336791FFDC8B700A31ADA /* MenuManager.swift */; };
+		D903367C1FFDD7AE00A31ADA /* BaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D903367B1FFDD7AE00A31ADA /* BaseCell.xib */; };
+		D903367E1FFDDD3D00A31ADA /* BaseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D903367D1FFDDD3D00A31ADA /* BaseViewCell.swift */; };
 		D95253F11FE845E3008EF4AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95253F01FE845E3008EF4AC /* AppDelegate.swift */; };
 		D95253F31FE845E3008EF4AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95253F21FE845E3008EF4AC /* ViewController.swift */; };
 		D95253F61FE845E3008EF4AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95253F41FE845E3008EF4AC /* Main.storyboard */; };
@@ -15,6 +19,8 @@
 		D95253FE1FE845E4008EF4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95253FC1FE845E4008EF4AC /* LaunchScreen.storyboard */; };
 		D95254091FE845E5008EF4AC /* newsReaderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95254081FE845E5008EF4AC /* newsReaderAppTests.swift */; };
 		D95254141FE845E5008EF4AC /* newsReaderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95254131FE845E5008EF4AC /* newsReaderAppUITests.swift */; };
+		D95254221FE84EA8008EF4AC /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95254211FE84EA8008EF4AC /* ArticleCell.swift */; };
+		D95254241FE8502D008EF4AC /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95254231FE8502D008EF4AC /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D90336771FFDC05400A31ADA /* webViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewViewController.swift; sourceTree = "<group>"; };
+		D90336791FFDC8B700A31ADA /* MenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
+		D903367B1FFDD7AE00A31ADA /* BaseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseCell.xib; sourceTree = "<group>"; };
+		D903367D1FFDDD3D00A31ADA /* BaseViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewCell.swift; sourceTree = "<group>"; };
 		D95253ED1FE845E3008EF4AC /* newsReaderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newsReaderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95253F01FE845E3008EF4AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D95253F21FE845E3008EF4AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		D952540F1FE845E5008EF4AC /* newsReaderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newsReaderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95254131FE845E5008EF4AC /* newsReaderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsReaderAppUITests.swift; sourceTree = "<group>"; };
 		D95254151FE845E5008EF4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95254211FE84EA8008EF4AC /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		D95254231FE8502D008EF4AC /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				D95253FC1FE845E4008EF4AC /* LaunchScreen.storyboard */,
 				D95253FF1FE845E4008EF4AC /* Info.plist */,
 				D95253F71FE845E4008EF4AC /* newsReaderApp.xcdatamodeld */,
+				D95254211FE84EA8008EF4AC /* ArticleCell.swift */,
+				D95254231FE8502D008EF4AC /* Article.swift */,
+				D90336771FFDC05400A31ADA /* webViewViewController.swift */,
+				D90336791FFDC8B700A31ADA /* MenuManager.swift */,
+				D903367B1FFDD7AE00A31ADA /* BaseCell.xib */,
+				D903367D1FFDDD3D00A31ADA /* BaseViewCell.swift */,
 			);
 			path = newsReaderApp;
 			sourceTree = "<group>";
@@ -235,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D903367C1FFDD7AE00A31ADA /* BaseCell.xib in Resources */,
 				D95253FE1FE845E4008EF4AC /* LaunchScreen.storyboard in Resources */,
 				D95253FB1FE845E4008EF4AC /* Assets.xcassets in Resources */,
 				D95253F61FE845E3008EF4AC /* Main.storyboard in Resources */,
@@ -262,9 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D903367A1FFDC8B700A31ADA /* MenuManager.swift in Sources */,
+				D95254221FE84EA8008EF4AC /* ArticleCell.swift in Sources */,
 				D95253F91FE845E4008EF4AC /* newsReaderApp.xcdatamodeld in Sources */,
+				D903367E1FFDDD3D00A31ADA /* BaseViewCell.swift in Sources */,
 				D95253F31FE845E3008EF4AC /* ViewController.swift in Sources */,
 				D95253F11FE845E3008EF4AC /* AppDelegate.swift in Sources */,
+				D90336781FFDC05400A31ADA /* webViewViewController.swift in Sources */,
+				D95254241FE8502D008EF4AC /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
